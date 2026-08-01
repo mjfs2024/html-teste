@@ -1,0 +1,67 @@
+/* Configurações Gerais da Página */
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.6;
+max-width: 800px;
+margin: 40px auto;
+padding: 0 20px;
+background-color: #f9f9f9;
+color: #333;
+}
+/* Títulos */
+h1 {
+color: #2c3e50;
+text-align: center;
+margin-bottom: 5px;
+}
+h2, h3 {
+color: #34495e;
+margin-top: 30px;
+}
+/* Parágrafo de subtítulo (abaixo do H1) */
+h1 + p {
+text-align: center;
+color: #7f8c8d;
+font-size: 1.1rem;
+}
+/* Linhas Divisórias (<hr>) */
+hr {
+border: 0;
+height: 1px;
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+margin: 20px 0;
+}
+
+/* Links em Geral */
+a {
+color: #3498db;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+a:hover {
+color: #2980b9;
+text-decoration: underline;
+}
+/* Menu de Navegação (Links dentro do parágrafo após a primeira linha) */
+p:has(a) {
+text-align: center;
+font-weight: bold;
+}
+/* Lista de Links Úteis */
+ul {
+background: #ffffff;
+padding: 20px 40px;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+list-style-type: square;
+}
+li {
+margin-bottom: 10px;
+}
+/* Rodapé (Último parágrafo) */
+body > p:last-child {
+text-align: center;
+color: #95a5a6;
+font-size: 0.9rem;
+margin-top: 40px;
+}
